@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        header{
+            /* position:fixed; */
+        }
+        body{
+        
+        }
+        .logo{
+            width: 40px;
+            height: 23px;
+            /* background-color: aquamarine; */
+
+        }
+        .logo img{
+            /* width: 70px;
+            height: 30px;
+            margin: 10px; */
+            /* display: flex; */
+            width: 90px;
+            height: 30px;
+            position: absolute;
+            top: 20px;
+            position: absolute;
+            left: 2px;
+        }
+        nav p{
+            display: flex;
+            /* margin-left: -10px; */
+            font-size: 30px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-color: white;
+            padding-bottom: 3px;
+           
+
+            
+
+           
+        }
+        .right ul{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .right ul li{
+            list-style: none;
+            justify-content: space-between;
+            align-items: self-end;
+            padding: 20px 40px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+input{
+    position: absolute;
+    right: 20px;
+    border-radius: 8px;
+    padding: 2px;
+
+}
+p{
+    color: red;
+}
+/* header ends */
+
+/* hero starts */
+.hero{
+    /* background-color: aqua; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100vh;
+    background-image: url(yango.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    /* text-align: center; */
+    justify-content: center;
+    align-items: center;
+
+
+}
+.hero p{
+    color: rgb(7, 39, 67);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color:rgb(20, 25, 177);
+    font-weight: 20px;
+   
+}
+button{
+    padding:  15px 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    margin-top: 200px;
+    background-color: orange;
+    border: none;
+    color: white;
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <p> <i>
+                yangoRide
+            </i></p>
+            <input type="search" name="search" id="" placeholder="search here">
+            <div  class="logo" ><img src="yango.png " alt=""></div>
+            <div class="right">
+                <ul>
+                    <li>home</li>
+                    <li>about</li>
+                    <li>products</li>
+                    <li>orders</li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+   <section class="hero">
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius fugit earum fuga ab iusto recusandae cumque facere pariatur? Quisquam ut ea quis. Numquam nisi maiores explicabo in adipisci asperiores natus! A ipsam maiores repellendus eos rerum molestias repellat, doloremque nam voluptatem neque consequatur at enim.</p>
+<button>Click</button>
+   </section>
+</body>
+</html>
