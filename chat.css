@@ -1,0 +1,95 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar Styling */
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: #f8f8f8; /* Light gray background similar to YouTube */
+    padding: 8px 16px; /* Padding around the navbar */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for a floating effect */
+    position: fixed; /* Fix the navbar at the top */
+    width: 100%; /* Full width */
+    top: 0; /* Align to top */
+    left: 0; /* Align to left */
+    z-index: 1000; /* Ensure navbar stays above other content */
+}
+
+/* Navbar Left (Logo and Menu Button) */
+.navbar-left {
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+
+.menu-button {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    margin-right: 16px;
+}
+
+.logo {
+    height: 24px; /* Adjust logo size */
+}
+
+/* Search Bar Styling */
+.search-container {
+    display: flex;
+    flex: 2;
+    max-width: 600px; /* Maximum width for search bar */
+    margin: 0 auto;
+}
+
+.search-input {
+    flex: 1;
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 24px; /* Rounded corners */
+    font-size: 16px;
+}
+
+.search-button {
+    background-color: #f8f8f8; /* Match background with the navbar */
+    border: 1px solid #ccc;
+    border-radius: 24px;
+    padding: 8px 12px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: -40px; /* Overlap search button slightly */
+}
+
+/* Navbar Right (Icons) */
+.navbar-right {
+    display: flex;
+    align-items: center;
+}
+
+.icon-button {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    margin-left: 16px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .search-container {
+        flex: 1;
+        max-width: none; /* Full width on smaller screens */
+    }
+
+    .search-button {
+        margin-left: 0; /* Reset margin on smaller screens */
+    }
+}

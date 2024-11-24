@@ -1,0 +1,72 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    
+background:url(pexels-bill-emrich-64742-230794.jpg) no-repeat center center fixed;
+background-size: cover;
+
+    
+}
+.container{
+    /* border: 12px solid black; */
+    color: white;
+    position: absolute;
+    top: 35%;
+    left: 40%;
+    border: solid purple;
+    border-radius: 20px ;
+    padding: 20px 20px 20px 40px ;
+    margin:20px 20px 2px 40px ;
+    background-color: light rgb(167, 90, 167);
+    box-shadow: 5px 5px 15px 5px #8f1c74;
+    
+}
+
+.container h1{
+    
+    display: inline-block;
+/* border: 5px solid purple; */
+    margin: 0%;
+    padding: 13px 0;
+    padding: 0px 15px 0px 0px;
+    text-align: center;
+     
+}
+.box{
+    width: 100%;
+    /* border: 2px solid purple; */
+    border: 2px solid purple;
+    margin: 12px 0px;
+    border-radius: 10px;
+    
+
+}
+.box input{
+    background: none;
+    width: 75%;
+    padding: 6px 10px;
+    border: none;
+    font-size: 20px;
+    outline: none;
+    color: white;
+}
+.btn{
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    font-size:20px ;
+    width:50% ;
+    margin: 12px 0;
+    padding: 10px 21px; 
+    border-radius: 10px;
+border: 2px solid purple;
+border-radius: 10px;
+font size: 18px;
+
+
+}
+
+

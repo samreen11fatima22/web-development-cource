@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>css box model</title>
+    <style>
+        /* this is a universal sletector */
+        *{
+            margin: 0;
+            padding: 0;
+        }
+      .box {
+        background-color: aqua;
+      }
+      .box1{
+        color: brown;
+        padding: 10px;
+        margin: 5px;
+        border: 3px solid gold;
+        height: 200px;
+        /* hieght ka matlb ha k ye equal h box content padding or border o mila k is m padding include ni ha islye box sizing or border box ko istmla kra h */
+        
+        box-sizing: border-box;
+
+      }
+      .box2{
+        padding: 10px;
+        margin: 50px;
+        border: 3px solid rgb(83, 32, 223);
+        height: 200px;
+        /* hieght ka matlb ha k ye equal h box content padding or border o mila k is m padding include ni ha islye box sizing or border box ko istmla kra h */
+        box-sizing: border-box;
+      }
+      /* margin collaps hogye agr oper or niche s 50 50 dia to total hoa hundred mgr hme dikh rha h 50 hi to ye hoa margin collaps */
+      .box3{
+        color: blueviolet;
+        padding: 10px;
+        margin: 50px;
+        border: 3px solid rgb(29, 26, 26);
+        height: 100px;
+        /* hieght ka matlb ha k ye equal h box content padding or border o mila k is m padding include ni ha islye box sizing or border box ko istmla kra h */
+        box-sizing: border-box;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>lecture no 18</h1>
+    <!-- this is div+. box entry for geting box class -->
+    <div class="box box1">I am a box</div>
+    <div class="box box2">I am another box</div>
+    <div class="box box3">I am a gift box</div>
+  </body>
+</html>

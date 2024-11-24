@@ -1,32 +1,58 @@
-!<!-- The HTML code contains some sections such as DOCTYPE, meta tags, head, and
-body. All the tags that we include in an HTML file, needs to be first opened
-and then closed by angular brackets. Let us now understand different
-sections one by one. -->
-
-<!-- Doctype HTML justifies that it is a HTML document. So, we are defining
-specifically for a browser to understand that it is an HTML document. To
-understand more about the type of documents, you can visit here. -->
 <!DOCTYPE html>
-
-<!-- It is the opening part of the HTML tag that tells us the language of the
-document is in English. -->
 <html lang="en">
-  <!-- Head contains all the meta-tags in it which is used to describe the contents
-  of a website. Meta means providing information about information. Therefore,
-  meta tags are used to define the keywords and descriptions on our website.
-  Head also contains the title of the website and all the external files like
-  CSS and JavaScript that we link to it. -->
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius quia minima atque aperiam blanditiis veritatis magni, sed placeat quas, non praesentium consequuntur doloremque. Unde minima nobis minus aut enim harum?</p>
+  <table>
+    <!-- table row attribute -->
+    <tr>
+      <th>name</th>
+      <th>class</th>
+      <th>grade</th>
+    </tr>
+    <tr>
+      <td>harry</td>
+      <td>matric</td>
+      <td>B+</td>
 
-    <!-- Title contains the text which is shown on the tab of your web page. It is also
-    an important part of an SEO. -->
-    <title>Document</title>
-  </head>
+    </tr>
+    <tr>
+      <td>azhar</td>
+      <td>matric</td>
+      <td>B+</td>
 
-  <!-- Body contains all the contents of the webpage in it. However, in the
-  beginning, our website may look a little uglier but after including
-  stylesheets it will start looking attractive. -->
-  <body></body>
+    </tr>
+    <tr>
+      <td colspan="2">samreen</td>
+      <!-- colspan m samreen 2 colom ki jga la ga  -->
+      <td>matric</td>
+      <td>B+</td>
+      <h1>unordered list</h1>
+      <ul>
+          <li>harry</li>
+          <li>azhar</li>
+          <li>ahsan</li>
+          <li>samreen</li>
+      </ul>
+      <h1>ordered list</h1>
+      <ol type="a">
+          <li>html</li>
+          <li>css</li>
+          <li>js</li>
+          <li>reactJs</li>
+      </ol>
+      <h1>definition list
+      </h1>
+      <dl>
+  <h2><dt>html</dt> </h2>  
+  <dd>this is my html definition</dd>   
+  
+      </dl>
+    </tr>
+  </table>
+</body>
 </html>
